@@ -1,0 +1,21 @@
+/* Home section */
+#home {
+    height: 380px;
+    padding: 10px 28px;
+}
+
+#topbtn {
+    margin-top: 0rem;
+}
+
+#home::before {
+    height: 550px;
+}
+
+#home h1 {
+    font-size: 2.9rem;
+}
+
+#home p {
+    font-size: 13px;
+}

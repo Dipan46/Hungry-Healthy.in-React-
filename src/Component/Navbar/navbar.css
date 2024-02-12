@@ -1,0 +1,112 @@
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    justify-content: space-between;
+}
+
+#logo {
+    margin: 10px 20px;
+}
+
+#logo img {
+    height: 50px;
+    margin: 0 10px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #000000;
+}
+
+a:active {
+    color: white;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: bisque;
+    display: block;
+    margin-top: 1px;
+    padding: 15px 26px;
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration: 0.7s;
+}
+
+#navbar ul li a:hover {
+    /* background-color: lightcoral; */
+    margin-top: 0px;
+    color: lightcoral;
+    text-decoration: none;
+    border-radius: 20px;
+    box-shadow: 7px 7px 11px 0px #000000a3;
+}
+
+#navbar ul li a:active {
+    /* background-color: lightcoral; */
+    margin-top: 0px;
+    transition-duration: 10ms;
+    text-decoration: none;
+    border-radius: 20px;
+    box-shadow: inset 7px 7px 11px 0px #000000a3;
+}
+
+.user {
+    display: flex;
+}
+
+.ubtn {
+    border: none;
+    color: whitesmoke;
+    background-color: crimson;
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
+    font-size: 16px;
+    border-radius: 0.6rem;
+    height: 2.5rem;
+    width: 8rem;
+    margin: 2%;
+    transition-property: all;
+    transition-duration: 0.7s;
+}
+
+.ubtn:hover {
+    background-color: antiquewhite;
+    color: black;
+    box-shadow: 0 0 46px #000000;
+}
+
+.ubtn:active {
+    background-color: black;
+    color: antiquewhite;
+    box-shadow: 0 0 46px white;
+    transition-duration: 0.2s;
+}

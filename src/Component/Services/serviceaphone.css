@@ -1,0 +1,26 @@
+/* Services */
+#sContainer h2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hSecondary {
+    font-size: 3rem;
+}
+
+.services {
+    margin: 0.5rem;
+}
+
+/* Services section  */
+#services {
+    flex-direction: column;
+}
+
+.services .box {
+    border: 3px dashed black;
+    display: flex;
+    flex-direction: column;
+    background-color: #ef02024d;
+    padding: 10px;
+}
