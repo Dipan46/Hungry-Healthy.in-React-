@@ -21,12 +21,13 @@
 }
 
 #home h1 {
-    font-family: 'Abril Fatface',
-        cursive;
+    font-family: 'Abril Fatface', 'cursive';
     color: whitesmoke;
     text-align: center;
     font-size: 3rem;
     text-shadow: 0 0 18px black;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
 #home p {

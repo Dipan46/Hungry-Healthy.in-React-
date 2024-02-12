@@ -3,6 +3,8 @@ import Navbar from "./Component/Navbar/navbar";
 import Home from "./Component/Home/home";
 import Services from "./Component/Services/services"
 import Client from "./Component/Client/client"
+import Contact from "./Component/Contact/contact";
+import Footer from "./Component/Footer/footer"
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         client3="https://dipan46.github.io/Hungry-Healthy.in/img/brand-image.png"
         client4="https://dipan46.github.io/Hungry-Healthy.in/img/brand-image.png"
       />
+      <Contact />
+      <Footer />
     </div>
   );
 }
