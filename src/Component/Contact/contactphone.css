@@ -1,8 +1,8 @@
 .btn {
-    margin: auto;
+  margin: auto;
 }
 
 #lbtn {
-    display: grid;
-    grid-template-columns: auto auto;
+  display: grid;
+  grid-template-columns: auto auto;
 }
